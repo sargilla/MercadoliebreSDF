@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
+    background-color: #ebebeb;
+}
+
+.main-navbar{
+    font-weight: 500;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+    padding: 15px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+
+main section article{
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin: 15px 0px;
+}
+
+main section article i{
+    display:block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}   
+
+.main-article{
+    border: 1px solid #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    padding: 0px 10px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+div.top-header{
+    padding: 2%;
+}
+
+logo{
+    width: 100%;
+}
+
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+p{
+    font-size: 12px;
+}
+
+.search-form{
+    display: flex;
+    align-self: center;
+    width: 50%;
+    justify-content: center;
+}
+
+.campo-busqueda{
+    text-align: center;
+    border: none;
+    padding:8px;
+    width: 75%;
+}
+
+.formulario{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 15px;
+    font-size: x-large;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.register-buttons{
+    align-self:center ;
+}
+
+.send-button{
+    font-size: x-large;
+    color: white;
+    background-color: #0044AA;
+    border-radius: 5px;
+    border: solid 0.2px;
+    padding: inherit;
+}
+
+.delete-button{
+    font-size: x-large;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 0.2px;
+    padding: inherit;
+}
+
+.control-login{
+    text-align: center;
+    border: none;
+    border-radius: 30px;    
+    padding:7px;
+    background-color: #f5f5f5;
+}
+
+.submitbutton{
+    font-size: x-large;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 0.2px;
+    padding: inherit;
+}
+
+main form div{
+    padding: 7px;
+}
+
+.formulario-register{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.search-button{
+    /* font-size: 12px; */
+    border: none;
+    padding: 8px;
+    background-color: white;
+    width:15%;
+    /* border-bottom: solid 3px #222021 ;    */
+}
+
+
+.Precios{
+    font-size: 18px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.Descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    width: 50%;
+    padding-left: 15px;
+}
+
+.Descripcion{
+    font-size: 16px;
+    display: none;
+}
+
+/* .fa-search{
+    background-color: white;
+    border: solid 1px;
+} */
+
+.fa-address-card{
+    font-weight: bold;
+}
+
+.fa-credit-card{
+    margin: 0px auto;
+}
+
+.fa-truck{
+    color:#39b54a;
+}
+
+/* footer */
+
+footer{
+    background-color: #FFF;
+    text-align: center;
+}
+
+.CuerpoTxt{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Ft{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;   
+}
+
+.fa-credit-card{
+    font-size: 2em;
+    color: #878e99;
+    margin: 10px auto 10px;
+}
+
+.fa-gift{
+    font-size: 2em;
+    color:#878e99;
+    margin: 10px auto 10px;
+}
+
+.fa-user-shield{
+    font-size: 2em;
+    color: #878e99;
+    margin: 10px auto 10px;
+}
+
+.Cp{
+    margin: 10px;
+}
+
+@media (min-width: 361px){
+    .Precios{
+        font-size: 18px;
+        font-weight: 500;
+        width:30%;
+    }
+    
+    .Descuentos{
+        font-size: 16px;
+        color: #39b54a;
+        width:70%;
+    }
+
+    .products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    main section article{
+        width: 45%;
+    }
+
+    .Descripcion{
+            display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .top-header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .Logo,.form{
+        width: 50%;
+    }
+
+    header div.top-header h2{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 769px){
+
+    
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    div.burger-menu {
+        display: none;
+    }
+
+
+    main section div.products article{
+        width: 22%;
+    }
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0 10px;
+    }
+
+    .top-header{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div.Logo{
+        width: 25%;
+    }
+
+    div.form{
+        width: 25%;
+    }
+
+    header div.top-header h2{
+        font-size: 15px;
+        width: 25%;
+        font-weight: lighter;
+        
+    }
+    .Logo{
+        width: 150px;
+    }
+
+    main section article:hover .Descripcion{
+        display: block;
+    }
+
+    main section article i{
+        transition: transform 1000ms;
+    }
+
+    main section article:hover i{
+        transform: rotate(-360deg);
+    }
+
+    .submitbutton:hover{
+        transition: 1000ms;
+        background-color: #9da5c4;
+        color: #ffffff;
+        border: none;
+    }
+
+    .info-footer{
+        display: flex;
+        padding: 10px 10px;
+    }
+
+    .fa-credit-card:hover{
+        transition: 1500ms;
+        color: #1259c3;
+    }
+    
+    .fa-gift:hover{
+        transition: 1500ms;
+        color:#1259c3;
+    }
+    
+    .fa-user-shield:hover{
+        transition: 1500ms;
+        color: #1259c3;
+    }
+
+    }
